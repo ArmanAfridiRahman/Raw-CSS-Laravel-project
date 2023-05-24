@@ -1,0 +1,374 @@
+/*
+    Post No Bills Jaffna Fonts
+ */
+@font-face {
+    font-family: "pnbj-Regular";
+    src: url("fonts/PostNoBillsJaffna-Regular.woff");
+}@font-face {
+    font-family: "pnbj-Light";
+    src: url("fonts/PostNoBillsJaffna-Light.woff");
+}@font-face {
+    font-family: "pnbj-Medium";
+    src: url("fonts/PostNoBillsJaffna-Medium.woff");
+}@font-face {
+    font-family: "pnbj-SemiBold";
+    src: url("fonts/PostNoBillsJaffna-SemiBold.woff");
+}@font-face {
+    font-family: "pnbj-Bold";
+    src: url("fonts/PostNoBillsJaffna-Bold.woff");
+}@font-face {
+    font-family: "pnbj-ExtraBold";
+    src: url("fonts/PostNoBillsJaffna-ExtraBold.woff");
+}
+
+/*
+    Mada Fonts
+ */
+@font-face {
+    font-family: "Mada-Regular";
+    src: url("fonts/Mada-Regular.woff");
+}@font-face {
+    font-family: "Mada-Light";
+    src: url("fonts/Mada-Light.woff");
+}@font-face {
+    font-family: "Mada-Medium";
+    src: url("fonts/Mada-Medium.woff");
+}@font-face {
+    font-family: "Mada-ExtraLight";
+    src: url("fonts/Mada-ExtraLight.woff");
+}@font-face {
+    font-family: "Mada-SemiBold";
+    src: url("fonts/Mada-SemiBold.woff");
+}@font-face {
+    font-family: "Mada-Bold";
+    src: url("fonts/Mada-Bold.woff");
+}@font-face {
+    font-family: "Mada-Black";
+    src: url("fonts/Mada-Black.woff");
+}
+
+.settings-menu{
+    background-color: var(--content-primary-color);
+    border-radius: 48px;
+    margin-inline: 1rem;
+    margin-top: 2rem;
+    width: 68rem;
+    .toggle{
+
+        .toggle-navigation{
+            margin: 2rem 0rem 0rem 2.5rem;
+            padding: 0.5rem 2rem;
+            border-radius: 50px;
+            border: none;
+            background-color: white;
+            font-family: "Mada-Bold";
+            cursor: pointer;
+            filter: drop-shadow(7px 7px 8px #2E2D2D);
+
+        }
+
+    }
+    .add-settings-menu-form{
+        padding: 2rem 0rem 0rem 2rem;
+
+        .new-settings-menu{
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            filter: drop-shadow(7px 7px 8px #2E2D2D);
+            background-color: white;
+            font-family: "Mada-Bold";
+            margin-bottom: 1rem;
+            cursor: pointer;
+
+        }
+        .select-form-control{
+            cursor: pointer;
+            appearance: none;
+            border: 3px solid var(--content-secondary-color);
+            width: 19.5rem;
+            border-radius: 50px;
+            color: #ffffff;
+            padding: 0.5rem 0rem 0.5rem 2rem;
+            background-color: #212121;
+            margin-bottom: 1rem;
+            font-family: 'Mada-Light';
+            font-size: 25px;
+            outline: none;
+            option{
+                color: #ffffff;
+            }
+        }
+
+
+
+        .settings-menu-form{
+            display: none;
+            margin: 0rem 1rem;
+            padding: .5rem;
+            .description {
+                margin-bottom: 2rem;
+                width: 59rem;
+                height: 8.5rem;
+                border-radius: 30px;
+                border: 6px solid var(--content-secondary-color);
+                padding: 1rem 2rem 1rem 2rem;
+
+                .academic{
+                    border: none;
+                    background-color: transparent;
+                    font-family: 'Mada-Light';
+                    height: 6rem;
+                    width: 54rem;
+                    padding-right: 1rem;
+                    resize: none;
+                    color: white;
+                }
+                .academic:focus{
+                    outline: none;
+                }
+                .academic::placeholder{
+                    font-size: 20px;
+                    color: #ffffff;
+                }
+                .academic::-webkit-scrollbar{
+                    width: 16px;
+                }
+                .academic::-webkit-scrollbar-track{
+                    background-color:  #D9D9D9;
+                    border-radius: 8px;
+                }
+                .academic::-webkit-scrollbar-thumb{
+                    background-color: #398044;
+                    border-radius: 8px;
+                    border: 4px solid  #D9D9D9;
+
+                }
+            }
+            .message{
+                color: white;
+                padding-left: 1rem;
+                font-size: 20px;
+                font-family: "Mada-Bold";
+            }
+            .heading{
+                margin-bottom: 1rem;
+                .form-control{
+                    width: min(70%, 50rem);
+                    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+                    border-radius: 25px;
+                    font-family: "Mada-Bold";
+                    outline: none;
+                }
+                .form-control::placeholder{
+                    font-family: "Mada-Bold";
+                }
+            }
+            .picture{
+                img{
+                    width: 100px;
+                    margin: 1rem 0rem 1rem 2rem;
+                }
+                .form-control{
+                    cursor: pointer;
+                    border: 3px solid var(--content-secondary-color);
+                    border-radius: 50px;
+                    color: #ffffff;
+                    padding: 0.2rem 0rem 0.2rem 1rem;
+                    background-color: #212121;
+                    font-family: 'Mada-Light';
+                    outline: none;
+                }
+                .form-control::-webkit-file-upload-button{
+                    border-radius: 50px;
+                    margin-right: 1rem;
+                    padding: 0.4rem 1rem;
+                    background-color: transparent;
+                    color: white;
+                    cursor: pointer;
+                    border: none;
+                }
+            }
+
+            .create{
+                padding: 0.5rem 2rem;
+                border-radius: 50px;
+                filter: drop-shadow(7px 7px 8px #2E2D2D);
+                cursor: pointer;
+                background-color: white;
+                font-family: "Mada-Bold";
+                margin: 1rem 1rem 0rem 0rem;
+
+            }
+            .create:hover{
+                border: 5px solid var(--content-secondary-color);
+                transition: 0.15s all ease-out;
+            }
+
+
+        }
+        .settings-menu-form-active{
+            display: block;
+        }
+        .settings-menu-form-edit{
+            padding: .5rem;
+            .message{
+                color: white;
+                padding-left: 1rem;
+                font-size: 20px;
+                font-family: "Mada-Bold";
+            }
+            .heading{
+                margin-bottom: 1rem;
+                .form-control{
+                    width: min(70%, 50rem);
+                    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+                    border-radius: 25px;
+                    font-family: "Mada-Bold";
+                    outline: none;
+                }
+                .form-control::placeholder{
+                    font-family: "Mada-Bold";
+                }
+            }
+            .picture{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                .form-control{
+                    cursor: pointer;
+                    border: 3px solid var(--content-secondary-color);
+                    border-radius: 50px;
+                    color: #ffffff;
+                    padding: 0.3rem 0rem 0.3rem 1rem;
+                    background-color: #212121;
+                    font-family: 'Mada-Light';
+                    outline: none;
+                    margin-bottom: 1rem;
+                    height: 3rem;
+                }
+                .form-control::-webkit-file-upload-button{
+                    border-radius: 50px;
+                    margin-right: 1rem;
+                    padding: 0.4rem 1rem;
+                    background-color: transparent;
+                    color: white;
+                    cursor: pointer;
+                    border: none;
+                }
+                img{
+                    width: 60px;
+                    margin: 0rem 0rem 1rem 2rem;
+                }
+            }
+
+            .create{
+                padding: 0.5rem 2rem;
+                border-radius: 50px;
+                filter: drop-shadow(7px 7px 8px #2E2D2D);
+                cursor: pointer;
+                background-color: white;
+                font-family: "Mada-Bold";
+                margin: 1rem 1rem 0rem 0rem;
+
+            }
+            .create:hover{
+                border: 5px solid var(--content-secondary-color);
+                transition: 0.15s all ease-out;
+            }
+
+
+        }
+
+
+    }
+
+    .all-settings-menu {
+        margin: 0rem 1.8rem;
+        padding: 1rem;
+
+        .settings-menu-table {
+            background-color: white;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 25px;
+            overflow-y: scroll;
+            height: 28rem;
+
+            table {
+                width: 100%;
+                thead {
+
+                    font-family: "Mada-Bold";
+                    tr {
+                        th {
+                            background-color: var(--content-secondary-color);
+                            border: 1px solid #ddd;
+                            padding: 0.5rem;
+                            font-size: 23px;
+
+
+                        }
+                    }
+                }
+
+                tbody {
+                    font-family: "Mada-Medium";
+                    tr:nth-child(even){background-color: #f2f2f2;}
+                    tr {
+                        margin-bottom: 10rem;
+                        td {
+                            padding-top:20px;
+                            padding-bottom:20px;
+                            padding-inline: 1rem;
+                            img{
+                                width: 100px;
+                            }
+                            a {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                                text-align: center;
+                                border: 4px solid var(--content-secondary-color);
+                                margin-bottom: 0.5rem;
+                                border-radius: 50px;
+                                padding-inline: 1rem;
+                            }
+                            a:hover{
+                                background-color: var(--content-secondary-color);
+                            }
+                        }
+                        td:first-child {
+                            padding-left:20px;
+                            padding-right:0;
+                        }
+
+                    }
+                    tr:hover {background-color: #ddd;}
+                }
+            }
+        }
+
+        .settings-menu-table-size{
+            height: 17.5rem;
+        }
+
+        .settings-menu-table::-webkit-scrollbar {
+            width: 16px;
+        }
+
+        .settings-menu-table::-webkit-scrollbar-track {
+            background-color: #B4DABA;
+            border-radius: 8px;
+        }
+
+        .settings-menu-table::-webkit-scrollbar-thumb {
+            background-color: #398044;
+            border-radius: 8px;
+            border: 5px solid #B4DABA;
+        }
+    }
+
+}
+
+
+.settings-menu-toggle{
+    width: 94rem;
+}

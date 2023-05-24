@@ -1,0 +1,77 @@
+/*
+    Post No Bills Jaffna Fonts
+ */
+@font-face {
+    font-family: "pnbj-Regular";
+    src: url("fonts/PostNoBillsJaffna-Regular.woff");
+}@font-face {
+    font-family: "pnbj-Light";
+    src: url("fonts/PostNoBillsJaffna-Light.woff");
+}@font-face {
+    font-family: "pnbj-Medium";
+    src: url("fonts/PostNoBillsJaffna-Medium.woff");
+}@font-face {
+    font-family: "pnbj-SemiBold";
+    src: url("fonts/PostNoBillsJaffna-SemiBold.woff");
+}@font-face {
+    font-family: "pnbj-Bold";
+    src: url("fonts/PostNoBillsJaffna-Bold.woff");
+}@font-face {
+    font-family: "pnbj-ExtraBold";
+    src: url("fonts/PostNoBillsJaffna-ExtraBold.woff");
+}
+
+/*
+    Mada Fonts
+ */
+@font-face {
+    font-family: "Mada-Regular";
+    src: url("fonts/Mada-Regular.woff");
+}@font-face {
+    font-family: "Mada-Light";
+    src: url("fonts/Mada-Light.woff");
+}@font-face {
+    font-family: "Mada-Medium";
+    src: url("fonts/Mada-Medium.woff");
+}@font-face {
+    font-family: "Mada-ExtraLight";
+    src: url("fonts/Mada-ExtraLight.woff");
+}@font-face {
+    font-family: "Mada-SemiBold";
+    src: url("fonts/Mada-SemiBold.woff");
+}@font-face {
+    font-family: "Mada-Bold";
+    src: url("fonts/Mada-Bold.woff");
+}@font-face {
+    font-family: "Mada-Black";
+    src: url("fonts/Mada-Black.woff");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--font-color);
+
+}
+.background-picture{
+    display: flex;
+}
+
+//.background-picture{
+//    background-image: url("../images/static/SVG/a.svg");
+//    background-repeat: no-repeat;
+//    padding-top: 1px;
+//    padding-bottom: 30px;
+//    position: absolute;
+//}
+:root{
+    --font-color: #2c2c2c;
+    --main-bg-color: #B0DDB7;
+    --content-primary-color: #474747;
+    --content-secondary-color: #B4DABA;
+}
+

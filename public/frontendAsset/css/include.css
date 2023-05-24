@@ -1,0 +1,142 @@
+/*
+    Post No Bills Jaffna Fonts
+ */
+@font-face {
+  font-family: "pnbj-Regular";
+  src: url("fonts/PostNoBillsJaffna-Regular.woff");
+}
+@font-face {
+  font-family: "pnbj-Light";
+  src: url("fonts/PostNoBillsJaffna-Light.woff");
+}
+@font-face {
+  font-family: "pnbj-Medium";
+  src: url("fonts/PostNoBillsJaffna-Medium.woff");
+}
+@font-face {
+  font-family: "pnbj-SemiBold";
+  src: url("fonts/PostNoBillsJaffna-SemiBold.woff");
+}
+@font-face {
+  font-family: "pnbj-Bold";
+  src: url("fonts/PostNoBillsJaffna-Bold.woff");
+}
+@font-face {
+  font-family: "pnbj-ExtraBold";
+  src: url("fonts/PostNoBillsJaffna-ExtraBold.woff");
+}
+/*
+    Mada Fonts
+ */
+@font-face {
+  font-family: "Mada-Regular";
+  src: url("fonts/Mada-Regular.woff");
+}
+@font-face {
+  font-family: "Mada-Light";
+  src: url("fonts/Mada-Light.woff");
+}
+@font-face {
+  font-family: "Mada-Medium";
+  src: url("fonts/Mada-Medium.woff");
+}
+@font-face {
+  font-family: "Mada-ExtraLight";
+  src: url("fonts/Mada-ExtraLight.woff");
+}
+@font-face {
+  font-family: "Mada-SemiBold";
+  src: url("fonts/Mada-SemiBold.woff");
+}
+@font-face {
+  font-family: "Mada-Bold";
+  src: url("fonts/Mada-Bold.woff");
+}
+@font-face {
+  font-family: "Mada-Black";
+  src: url("fonts/Mada-Black.woff");
+}
+.header {
+  margin: 1rem 1rem 1rem 3rem;
+  display: flex;
+}
+.header .logo {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+}
+.header .logo img {
+  position: absolute;
+  margin-right: 1rem;
+  width: 100px;
+}
+.header .logo img:hover {
+  transition: 0.2s all ease-in;
+  filter: drop-shadow(3px 3px 4px #2E2D2D);
+}
+.header .logo .text {
+  margin-left: 7rem;
+}
+.header .logo .text h3 {
+  font-family: "Mada-SemiBold";
+  font-size: 25px;
+  width: 17rem;
+}
+.header .logo .text p {
+  font-family: "Mada-Regular";
+}
+.header .navigation-panel {
+  margin: 3.5rem 2rem 0rem 18rem;
+  height: 2.5rem;
+  display: flex;
+}
+.header .navigation-panel a {
+  text-align: center;
+  padding-inline: 1rem;
+  padding-top: 0.45rem;
+  border: 3px solid var(--content-primary-color);
+  border-radius: 50px;
+  margin-right: 2rem;
+  font-family: "Mada-Bold";
+}
+.header .navigation-panel a:nth-child(1) {
+  width: 7rem;
+}
+.header .navigation-panel a:nth-child(3) {
+  width: 13rem;
+}
+.header .navigation-panel a:hover {
+  background-color: var(--content-primary-color);
+  color: white;
+  transition: 0.2s all ease-in;
+  filter: drop-shadow(3px 3px 4px #2E2D2D);
+}
+
+.footer .footer-top {
+  padding: 1rem;
+  display: flex;
+  background-color: var(--content-secondary-color);
+}
+.footer .footer-top .content {
+  margin: 1rem 0rem 1rem 19rem;
+}
+.footer .footer-top .content h1 {
+  color: white;
+  font-family: "Mada-SemiBold";
+  font-size: 25px;
+}
+.footer .footer-top .content p {
+  width: 18rem;
+  color: white;
+}
+.footer .footer-bottom {
+  padding: 1rem;
+  background-color: #D9D9D9;
+}
+.footer .footer-bottom .content p {
+  text-align: center;
+  font-family: "Mada-Medium";
+  color: var(--content-secondary-color);
+}
+
+/*# sourceMappingURL=include.css.map */

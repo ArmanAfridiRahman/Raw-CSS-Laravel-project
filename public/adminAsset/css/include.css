@@ -1,0 +1,165 @@
+/*
+    Post No Bills Jaffna Fonts
+ */
+@font-face {
+  font-family: "pnbj-Regular";
+  src: url("fonts/PostNoBillsJaffna-Regular.woff");
+}
+@font-face {
+  font-family: "pnbj-Light";
+  src: url("fonts/PostNoBillsJaffna-Light.woff");
+}
+@font-face {
+  font-family: "pnbj-Medium";
+  src: url("fonts/PostNoBillsJaffna-Medium.woff");
+}
+@font-face {
+  font-family: "pnbj-SemiBold";
+  src: url("fonts/PostNoBillsJaffna-SemiBold.woff");
+}
+@font-face {
+  font-family: "pnbj-Bold";
+  src: url("fonts/PostNoBillsJaffna-Bold.woff");
+}
+@font-face {
+  font-family: "pnbj-ExtraBold";
+  src: url("fonts/PostNoBillsJaffna-ExtraBold.woff");
+}
+/*
+    Mada Fonts
+ */
+@font-face {
+  font-family: "Mada-Regular";
+  src: url("fonts/Mada-Regular.woff");
+}
+@font-face {
+  font-family: "Mada-Light";
+  src: url("fonts/Mada-Light.woff");
+}
+@font-face {
+  font-family: "Mada-Medium";
+  src: url("fonts/Mada-Medium.woff");
+}
+@font-face {
+  font-family: "Mada-ExtraLight";
+  src: url("fonts/Mada-ExtraLight.woff");
+}
+@font-face {
+  font-family: "Mada-SemiBold";
+  src: url("fonts/Mada-SemiBold.woff");
+}
+@font-face {
+  font-family: "Mada-Bold";
+  src: url("fonts/Mada-Bold.woff");
+}
+@font-face {
+  font-family: "Mada-Black";
+  src: url("fonts/Mada-Black.woff");
+}
+.common .navigation {
+  display: block;
+  width: 24rem;
+  height: 100%;
+  padding-left: 0rem;
+  left: 0;
+  top: 0;
+  font-family: "Mada-Medium";
+}
+.common .navigation .logo {
+  margin-top: 1rem;
+  border-radius: 25px;
+  padding: 1rem 20px 2rem 20px;
+}
+.common .navigation .logo img {
+  margin: 2rem 6rem;
+  padding-left: 2rem;
+  height: 100px;
+}
+.common .navigation .logo .name {
+  font-family: "Mada-Bold";
+  font-size: 36px;
+  text-align: center;
+  word-spacing: 3px;
+  opacity: 80%;
+}
+.common .navigation .navigation-menu {
+  margin-top: 1rem;
+  overflow-y: scroll;
+  height: 23rem;
+  width: 22rem;
+}
+.common .navigation .navigation-menu .items li a {
+  display: block;
+  text-align: left;
+  margin: 1rem 0rem 1.5rem 2.5rem;
+  padding: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+.common .navigation .navigation-menu .items li a .text {
+  font-family: "Mada-SemiBold";
+  font-size: 25px;
+  transition: all 0.2s ease;
+}
+.common .navigation .navigation-menu .items .setting_menu, .common .navigation .navigation-menu .items .t-and-s_menu {
+  display: none;
+}
+.common .navigation .navigation-menu .items .setting_menu ul, .common .navigation .navigation-menu .items .t-and-s_menu ul {
+  margin-bottom: 2rem;
+}
+.common .navigation .navigation-menu .items .setting_menu ul li a, .common .navigation .navigation-menu .items .t-and-s_menu ul li a {
+  padding-left: 3rem;
+  height: 2.2rem;
+  background-color: transparent;
+}
+.common .navigation .navigation-menu .items .setting_menu ul li .text, .common .navigation .navigation-menu .items .t-and-s_menu ul li .text {
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+.common .navigation .navigation-menu::-webkit-scrollbar {
+  width: 16px;
+}
+.common .navigation .navigation-menu::-webkit-scrollbar-track {
+  background-color: #B4DABA;
+  border-radius: 8px;
+  opacity: 50%;
+}
+.common .navigation .navigation-menu::-webkit-scrollbar-thumb {
+  background-color: #398044;
+  border-radius: 8px;
+  border: 5px solid #B4DABA;
+  opacity: 50%;
+}
+.common .navigation .text:hover,
+.common .navigation .text:active {
+  color: var(--main-bg-color);
+}
+.common .navigation .navigation-menu ul li a.a_parent.active {
+  background-color: var(--main-bg-color);
+  border-radius: 50px;
+  width: 17rem;
+  padding: 1rem 0rem 1rem 1.75rem;
+  opacity: 70%;
+  transition: 0.5s ease-in-out;
+}
+.common .navigation .navigation-menu ul li a.a_parent.active .dashboard, .common .navigation .navigation-menu ul li a.a_parent.active .settings, .common .navigation .navigation-menu ul li a.a_parent.active .t-and-s, .common .navigation .navigation-menu ul li a.a_parent.active .technology {
+  background-color: transparent;
+}
+.common .navigation .navigation-menu ul li a.a_parent.active .dashboard .text, .common .navigation .navigation-menu ul li a.a_parent.active .settings .text, .common .navigation .navigation-menu ul li a.a_parent.active .t-and-s .text, .common .navigation .navigation-menu ul li a.a_parent.active .technology .text {
+  color: var(--font-color);
+  background-color: transparent;
+  opacity: 100%;
+  font-family: "Mada-Bold";
+}
+.common .navigation .navigation-menu .items li a.a_parent.active + .setting_menu {
+  display: block;
+}
+.common .navigation .navigation-menu .items li a.a_parent.active + .t-and-s_menu {
+  display: block;
+}
+.common .navigation-active {
+  display: none;
+}
+
+/*# sourceMappingURL=include.scss.map */
